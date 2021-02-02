@@ -55,11 +55,11 @@ public class Product {
         res += "\nImages of the product: " + description.ImagestoString() + ".";
         res += "\nThe starting price of this product is " + startingPrice + " €.";
         res += "\nThe current bid for this product is " + this.currentBid + " €.";
-        res += "\nThe minutes remaining for the auction of this product are " + this.minutesRemaining + " €.";
+        res += "\nThe minutes remaining for the auction of this product are " + this.minutesRemaining + " minutes.";
         return res;
     }
     
-    public void notifyObservers() {
+    private void notifyObservers() {
         for (Observer observer : observers) observer.changed();
     }
     
@@ -69,6 +69,7 @@ public class Product {
 
     public void setCurrentBid(int currentBid) {
         this.currentBid = currentBid;
+        this.notifyObservers();
     }
     
     public void reduceMinutes(){

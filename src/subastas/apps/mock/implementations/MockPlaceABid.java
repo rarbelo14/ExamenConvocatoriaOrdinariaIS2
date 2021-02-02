@@ -9,7 +9,6 @@ public class MockPlaceABid implements PlaceABid{
     public void bid(Product product, int amount) {
         if(amount > product.getCurrentBid()){
             product.setCurrentBid(amount);
-            product.notifyObservers();
         }
     }
     
