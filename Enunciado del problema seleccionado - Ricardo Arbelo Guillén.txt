@@ -1,0 +1,4 @@
+Diseñar una aplicación para realizar subastas online. La aplicación debe permitir ver todas las subastas activas, 
+y al entrar en una subasta, ver una descripción del bien que se subasta incluyendo varias fotos, el precio de salida, 
+las pujas que se ha realizado y el tiempo que queda para finalizar la subasta. Se plantea también que el usuario pueda realizar pujas por un bien.
+Representar el diseño en UML e implementar la arquitectura en Java.
