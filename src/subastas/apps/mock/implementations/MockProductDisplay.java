@@ -12,7 +12,7 @@ public class MockProductDisplay implements ProductDisplay{
 
     @Override
     public void changed() {
-        //this.display();
+        // System.out.println(product.toString());
     }
     
 }

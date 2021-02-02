@@ -70,16 +70,10 @@ public class Product {
     public void setCurrentBid(int currentBid) {
         this.currentBid = currentBid;
     }
-
-    public void setMinutesRemaining(int minutesRemaining) {
-        this.minutesRemaining = minutesRemaining;
-    }
     
     public void reduceMinutes(){
         if(minutesRemaining > 0)minutesRemaining--;
-        if(minutesRemaining == 0) this.notifyObservers();
-        
+        if(minutesRemaining == 0) this.notifyObservers(); 
     }
-    
-    
+
 }

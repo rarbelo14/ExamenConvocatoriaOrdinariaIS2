@@ -46,10 +46,11 @@ public class HoldAuctionCommand implements Command{
                     int intBidAmount = Integer.parseInt(bidAmount);
                     //MockPlaceABid.bid(product, intBidAmount);
                     
-                    /*  Disculpe, pero no sé seguir desde aquí:
-                        Me faltó completar la operación de "Realizar una puja", que no sé porqué me está dando error.
-                        Y también me faltó el poder hacer que el tiempo de la puja disminuyese con el paso de los minutos.
-                        Por último, me faltó terminar de realizar correctamente el patrón Observer.
+                    /*  
+                        Disculpe, pero no sé seguir desde aquí:
+                            Me faltó completar la operación de "Realizar una puja", que no sé porqué me está dando error.
+                            Y también me faltó el poder hacer que el tiempo de la puja disminuyese con el paso de los minutos.
+                            Por último, me faltó terminar de realizar correctamente el patrón Observer.
                     */
                     
                 }
