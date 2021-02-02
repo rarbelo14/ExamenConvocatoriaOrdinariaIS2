@@ -75,6 +75,11 @@ public class Product {
         this.minutesRemaining = minutesRemaining;
     }
     
+    public void reduceMinutes(){
+        if(minutesRemaining > 0)minutesRemaining--;
+        if(minutesRemaining == 0) this.notifyObservers();
+        
+    }
     
     
 }

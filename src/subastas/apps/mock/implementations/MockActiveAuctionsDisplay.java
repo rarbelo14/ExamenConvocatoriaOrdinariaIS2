@@ -17,7 +17,14 @@ public class MockActiveAuctionsDisplay implements ActiveAuctionsDisplay{
 
     @Override
     public void on(ProductSelected productSelected) {
+        System.out.println("\nThe product " + productSelected.getProductName() + " has been selected.\nDisplaying the informatino about this product:\n");
+    }
+
+    @Override
+    public void changed() {
         
     }
+
+   
     
 }

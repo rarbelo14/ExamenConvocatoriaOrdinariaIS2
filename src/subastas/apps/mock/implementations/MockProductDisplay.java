@@ -9,5 +9,10 @@ public class MockProductDisplay implements ProductDisplay{
     public void display(Product product) {
         System.out.println(product.toString());
     }
+
+    @Override
+    public void changed() {
+        //this.display();
+    }
     
 }

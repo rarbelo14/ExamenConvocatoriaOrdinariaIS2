@@ -16,7 +16,7 @@ public class MockProductLoader implements ProductLoader{
         imagesName1.add("Image 1");
         imagesName1.add("Image 2");
         imagesName1.add("Image 3");
-        list.add(new Product("Escultura", "Una escultura muy bonita", imagesName1, 50, 50, 120));
+        list.add(new Product("Sculpture", "Una escultura muy bonita", imagesName1, 50, 50, 120));
         List<String> imagesName2 = new ArrayList<>();
         imagesName2.add("Image 1");
         imagesName2.add("Image 2");
